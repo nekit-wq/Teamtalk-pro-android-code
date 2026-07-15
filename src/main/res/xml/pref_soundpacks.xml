@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="sound_pack_preference"
+        android:title="@string/pref_title_sound_pack"
+        android:summary="@string/pref_summary_sound_pack"
+        android:entries="@array/sound_pack_entries"
+        android:entryValues="@array/sound_pack_values"
+        android:defaultValue="default" />
+
+    <Preference
+        android:key="import_sound_pack"
+        android:title="@string/pref_title_import_sounds"
+        android:summary="@string/pref_summary_import_sounds" />
+
+</PreferenceScreen>

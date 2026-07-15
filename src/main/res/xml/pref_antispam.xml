@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="antispam_def"
+        android:title="@string/pref_cat_antispam">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="antispam_enabled"
+            android:title="@string/pref_title_antispam_enabled"
+            android:summary="@string/pref_summary_antispam_enabled" />
+
+        <EditTextPreference
+            android:key="antispam_msg_limit"
+            android:defaultValue="20"
+            android:inputType="number"
+            android:title="@string/pref_title_antispam_msg_limit"
+            android:summary="@string/pref_summary_antispam_msg_limit" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="antispam_unsub_all"
+            android:title="@string/pref_title_antispam_unsub_all"
+            android:summary="@string/pref_summary_antispam_unsub_all" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

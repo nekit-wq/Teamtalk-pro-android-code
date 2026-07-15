@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_entries">
+        <item>Auto (System)</item>
+        <item>White (Light)</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>auto</item>
+        <item>white</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="sound_pack_entries">
+        <item>Default</item>
+        <item>Custom</item>
+        <item>Silent</item>
+    </string-array>
+    <string-array name="sound_pack_values">
+        <item>default</item>
+        <item>custom</item>
+        <item>silent</item>
+    </string-array>
+</resources>

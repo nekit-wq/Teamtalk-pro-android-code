@@ -1,0 +1,33 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$GeneralPreferenceFragment"
+        android:title="@string/pref_header_general" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$SoundPacksPreferenceFragment"
+        android:title="@string/pref_title_sound_pack" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$SoundEventsPreferenceFragment"
+        android:title="@string/pref_title_audio_icons" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$AntiSpamPreferenceFragment"
+        android:title="@string/pref_header_antispam" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$TtsPreferenceFragment"
+        android:title="@string/pref_header_tts" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$ServerListPreferenceFragment"
+        android:title="@string/pref_header_serverlist" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$ConnectionPreferenceFragment"
+        android:title="@string/pref_header_connection" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$SoundSystemPreferenceFragment"
+        android:title="@string/pref_header_soundsystem" />
+    <header
+        android:fragment="org.nekit.ttproplus.gui.PreferencesActivity$AboutPreferenceFragment"
+        android:title="@string/pref_cat_about" />
+
+</preference-headers>
