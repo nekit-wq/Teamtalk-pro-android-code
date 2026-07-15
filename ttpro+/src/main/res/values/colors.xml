@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#546E7A</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="statusBarColor">#263238</color>
+    <color name="tabLayoutBackground">#33b5e5</color>
+    <color name="tabLayoutTextColor">#FFFFFF</color>
+    <color name="textPrimary">#212121</color>
+    <color name="dividerColor">#E0E0E0</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textTertiary">#9E9E9E</color>
+    <color name="surfaceColor">#FAFAFA</color>
+    <color name="infoBackground">#F5F5F5</color>
+    <color name="editTextBackground">#FFFFFF</color>
+    <color name="logBackground">#FFF8E1</color>
+    <color name="logTextColor">#F57F17</color>
+    <color name="logTimeColor">#BCAAA4</color>
+    <color name="srvInfoBackground">#E8F5E9</color>
+    <color name="srvInfoTitleColor">#2E7D32</color>
+    <color name="srvInfoTextColor">#558B2F</color>
+    <color name="srvInfoTimeColor">#A5D6A7</color>
+</resources>
